@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:id="@+id/op_category_1">
+        <item
+            android:id="@+id/om_new_tab"
+            android:icon="@drawable/ic_add"
+            android:title="New tab" />
+        <item
+            android:id="@+id/om_new_incognito_tab"
+            android:icon="@drawable/ic_anonymous"
+            app:showAsAction="never"
+            android:title="New Incognito tab " />
+    </group>
+    <group android:id="@+id/op_category_2">
+        <item
+            android:id="@+id/om_history"
+            android:icon="@drawable/ic_history"
+            android:title="History" />
+        <item
+            android:id="@+id/om_downloads"
+            android:icon="@drawable/ic_download"
+            android:title="Downloads" />
+        <item
+            android:id="@+id/om_bookmarks"
+            android:icon="@drawable/ic_star"
+            android:title="Bookmarks" />
+    </group>
+
+    <group android:id="@+id/op_category_3">
+        <item
+            android:id="@+id/om_share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/om_settings"
+            android:icon="@drawable/ic_setting"
+            android:title="Settings" />
+        <item
+            android:id="@+id/om_help_feedback"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/om_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit" />
+    </group>
+
+</menu>

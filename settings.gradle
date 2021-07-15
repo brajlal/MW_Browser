@@ -1,0 +1,2 @@
+rootProject.name = "MW Browser"
+include ':app'
